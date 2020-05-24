@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	JVC PRESENTS
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167522605-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167522605-1');
+</script>
+
+
 <style>
 * {
   box-sizing: border-box;
@@ -9,8 +21,9 @@
 
 /* Add a gray background color with some padding */
 body {
+
   font-family: Arial;
-  padding: 20px;
+  width: 100%;
   background: #f1f1f1;
 }
 
@@ -26,14 +39,17 @@ body {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 65%;
+  width: 50%;
 }
-
+.masterfooter {   
+  width: 100%;
+  background: white;
+}
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 35%;
-  padding-left: 20px;
+  width: 25%;
+  padding-left: 5px;
 	}
 
 	/* Fake image */
@@ -45,9 +61,10 @@ body {
 
 	/* Add a card effect for articles */
 	.card {
-	   background-color: white;
-	   padding: 20px;
-	   margin-top: 20px;
+	   background-color: black;
+	   padding: 5px;
+	   margin-top: 5px;
+	   height:auto;
 	}
 
 	/* Clear floats after the columns */
@@ -72,6 +89,50 @@ body {
 	    padding: 0;
 	  }
 	}
+.rightmostcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 5px;
+	}
+
+	/* Fake image */
+	.fakeimg {
+	  background-color: #aaa;
+	  width: 100%;
+	  padding: 10px;
+	}
+
+	/* Add a card effect for articles */
+	.card {
+	   background-color: black;
+	   padding: 5px;
+	   margin-top: 5px;
+	   height:auto;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Footer */
+	.footer {
+	  padding: 20px;
+	  text-align: center;
+	  background: #ddd;
+	  margin-top: 20px;
+	}
+
+	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 800px) {
+	  .leftcolumn, .rightcolumn,.rightmostcolumn {   
+	    width: 100%;
+	    padding: 0;
+	  }
+	}
+
 	</style>
 	</head>
 
@@ -81,14 +142,9 @@ body {
 </div>
 <div class="row">
   <div class="leftcolumn">
-  	    <div class="card">
 			<a href="https://twitter.com/intent/tweet?button_hashtag=covid&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #covid</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			  <div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}, {"_type": "stats", "location-id":"/United States"}, {"_type": "stats", "location-id":"/"}, {"_type": "trends", "location-id":"/United States",  "data-location-latlon":"48.84,-43.59"}, {"_type": "map", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}]'></div>
-			<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/Spain"}, {"_type": "stats", "location-id":"/Italy"}, {"_type": "stats", "location-id":"/United States"},  {"_type": "stats", "location-id":"/"}]'></div>
-			<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "map", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}]'></div>
-
+			  <div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/India/Kerala",  "location-latlon":"10.85,-76.27"}, {"_type": "stats", "location-id":"/India"}, {"_type": "trends", "location-id":"/India/Kerala"}, {"_type": "map", "location-id":"/India/Kerala",  "location-latlon":"10.85,-76.27"}]'></div>
 			<script src="http://www.bing.com/widget/bootstrap.answer.js" async=""></script>
-		</div>
 	</div>
   <div class="rightcolumn">
     <div class="card">
@@ -108,21 +164,101 @@ body {
        
       </p>
     </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Currently working as data engineering lead with Nike.</p>
-    </div>
+        <div class="card">
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-c36dfa80-a3ff-417b-866f-90f76e9aebf8"></div>
-      <p></p>
-    </div>
+      	<h2>CNN News </h2>
+      
+			<iframe  src="https://www.youtube.com/embed/fD2ylEbOwjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+    	</div>
+         <div class="card">
+
+      	<h2>NDTV News </h2>
+      
+			<iframe src="https://www.youtube.com/embed/AFNUeUed8Ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
+
+  		<div class="card">
+
+      	<h2>ABC News </h2>
+      
+			<iframe  src="https://www.youtube.com/embed/w_Ma8oQLmSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
+
+
+
   </div>
+    <div class="rightmostcolumn">
+   		<div class="card">
+
+      <h2>Times Now News </h2>
+      
+      <p>
+<iframe src="https://www.youtube.com/embed/Q-3yA6NsTfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+      </p>
+   </div>
+
+   		<div class="card">
+      <h2>Media One TV</h2>
+      
+
+<iframe src="https://www.youtube.com/embed/d1iwUB9YFnA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+   <div class="card">
+      <h2>24 News</h2>
+      
+
+<iframe src="https://www.youtube.com/embed/zcrUCvBD16k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+      <div class="card">
+      <h2>Manorama News</h2>
+      
+
+<iframe  src="https://www.youtube.com/embed/jjH6v95z3Nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+     <div class="card">
+   			  	<h2>CNBC News </h2>
+<iframe src="https://www.youtube.com/embed/V6ywHUk4yeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+  </div>
+  </div>
+
+ <div class="header">
+  <h2>Check stock market Impact</h2>
 </div>
-
-
+<div class="body">
+					<div class="tradingview-widget-container">
+				<div id="tradingview_62aff"></div>
+				<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+				<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+				<script type="text/javascript">
+				new TradingView.widget(
+				{
+				"width": 1400,
+				"height": 400,
+				"symbol": "NASDAQ:AAPL",
+				"interval": "D",
+				"timezone": "Etc/UTC",
+				"theme": "light",
+				"style": "1",
+				"locale": "en",
+				"toolbar_bg": "#f1f3f6",
+				"enable_publishing": false,
+				"allow_symbol_change": true,
+				"container_id": "tradingview_62aff"
+				}
+				);
+				</script>
+				</div>
+</div>
+ <div class="masterfooter">
+  <p>Courtsey to Bing, CNBC, Asianet news,Media one, Manorama news,24 News , Media one ,Mathrubhumi, CNN,ABC news</p>
+  google-site-verification: googlebd50ef0ff7cb0a3b.html
+<meta name="google-site-verification" content="L1pXXqnN4Bvc-7JoFsFR92YZtWjeGP8ZcchY-o4ow4w" />
+</div>
 </html>
 
